@@ -6,7 +6,7 @@ body {
 /* shared styles */
 
 .highlight {
-    color: rgb(255, 83, 160);
+    color: #ff53a0;
 }
 
 .logo {
@@ -19,16 +19,19 @@ body {
 .nav {
     display: flex;
     justify-content: space-between;
-    padding: 30px 240px;
+    padding: 0px 160px;
     align-items: center;
     background-color: #FFFFFF;
-
+    box-shadow: 0 1px 30px rgba(209, 207, 207, 0.563);
+    /* height: 100px; */
 }
 
 .nav-title {
+    margin: 0;
     display: flex;
     align-items: center;
-    font-size: 2.8em;
+    font-size: 2.8rem;
+    padding: 20px 0;
 
 
 }
@@ -40,6 +43,7 @@ body {
 }
 
 .nav li {
+    font-size: 1.1rem;
     list-style: none;
     padding: 0 15px;
     color: #3C354F;
@@ -56,6 +60,9 @@ body {
     padding: 8px 20px;
     border: 0;
     border-radius: 5px;
+    font-size: 1rem;
+    
+    
 
 }
 
@@ -66,6 +73,66 @@ body {
 
 }
 
+/* header banner section */
+
+.banner-section{
+    background-image: url('../images/bannerbcg.png');
+    background-repeat: no-repeat;
+    background-position: left top ;
+}
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 0  150px;
+    padding: 60px 0;
+}
+
+.banner-content {
+    width: 40%;
+}
+.banner-title{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.goat {
+    font-size: 5rem;
+    font-weight: 900;
+    background: -webkit-linear-gradient(-90deg, rgba(255, 8, 185, 0.73) 30%, rgba(14, 126, 205, 0.795) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.paragraph{
+    font-size: 1rem;
+    color: #3C354F;
+}
+
+
+
+.btn-s{
+    border: 0;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    padding: 15px 35px;
+    margin-right: 25px;
+    margin-top: 10px;
+    color: #fff;
+}
+.btn-prime{
+    background-color:#ff53a0 ;
+}
+.btn-ran{
+    background-color: rgb(90, 178, 251);
+}
+.banner-img{
+    width: 45%;
+    /* margin-left: 120px; */
+    
+}
 
 
 
@@ -82,21 +149,50 @@ body {
 
 @media screen and (max-width: 576px) {
 
-    .nav, ul{
+    .nav,
+    ul, .banner {
         flex-direction: column;
-        
-        
-    }
 
+
+    }
     .nav ul {
-        
-        padding: 0 30px ;
+
+        padding: 0 30px;
         margin: 0 auto;
     }
 
-    .nav li{
+    .nav li {
         padding-bottom: 30px;
     }
+
+
+
+
+    .banner{
+        flex-direction: column-reverse;
+        width: 100%;
+        /* align-content: center; */
+        margin: 0 auto;
+        /* text-align: center; */
+
+    }
+
+    .banner-content{
+        width: 70%;
+        text-align: center;
+        padding: 100px 0;
+        margin: 0 auto;
+    }
+ 
+    .banner-img{
+
+        
+        margin: auto;
+        width: 70%;
+        /* margin-left: 120px; */
+        
+    }
     
+
 
 }

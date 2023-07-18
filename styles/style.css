@@ -61,8 +61,8 @@ body {
     border: 0;
     border-radius: 5px;
     font-size: 1rem;
-    
-    
+
+
 
 }
 
@@ -75,24 +75,26 @@ body {
 
 /* header banner section */
 
-.banner-section{
+.banner-section {
     background-image: url('../images/bannerbcg.png');
     background-repeat: no-repeat;
-    background-position: left top ;
+    background-position: left top;
 }
+
 .banner {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 80%;
-    margin: 0  150px;
+    margin: 0 150px;
     padding: 60px 0;
 }
 
 .banner-content {
     width: 40%;
 }
-.banner-title{
+
+.banner-title {
     font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 4px;
@@ -106,14 +108,15 @@ body {
     -webkit-text-fill-color: transparent;
 
 }
-.paragraph{
+
+.paragraph {
     font-size: 1rem;
     color: #3C354F;
 }
 
 
 
-.btn-s{
+.btn-s {
     border: 0;
     border-radius: 50px;
     font-size: 1.1rem;
@@ -122,18 +125,44 @@ body {
     margin-top: 10px;
     color: #fff;
 }
-.btn-prime{
-    background-color:#ff53a0 ;
-}
-.btn-ran{
-    background-color: rgb(90, 178, 251);
-}
-.banner-img{
-    width: 45%;
-    /* margin-left: 120px; */
-    
+
+.btn-prime {
+    background-color: #ff53a0;
 }
 
+.btn-ran {
+    background-color: rgb(90, 178, 251);
+}
+
+.banner-img {
+    width: 45%;
+    /* margin-left: 120px; */
+
+}
+
+/* online game card section styles */
+
+
+.online-games {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+.video-card {
+    text-align: start;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.card {
+    justify-self: center;
+    width: 280px;
+}
+
+.card-img {
+    width: 100%;
+}
 
 
 
@@ -150,15 +179,17 @@ body {
 @media screen and (max-width: 576px) {
 
     .nav,
-    ul, .banner {
+    ul,
+    .banner {
         flex-direction: column;
 
 
     }
+
     .nav ul {
 
         padding: 0 30px;
-        margin: 0 auto;
+        /* margin: 0 0; */
     }
 
     .nav li {
@@ -168,31 +199,29 @@ body {
 
 
 
-    .banner{
+    .banner {
         flex-direction: column-reverse;
         width: 100%;
-        /* align-content: center; */
         margin: 0 auto;
-        /* text-align: center; */
+
 
     }
 
-    .banner-content{
+    .banner-content {
         width: 70%;
         text-align: center;
         padding: 100px 0;
         margin: 0 auto;
     }
- 
-    .banner-img{
 
-        
+    .banner-img {
+
+
         margin: auto;
         width: 70%;
-        /* margin-left: 120px; */
-        
+
     }
-    
+
 
 
 }

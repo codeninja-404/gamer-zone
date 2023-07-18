@@ -1,4 +1,67 @@
-body{
+body {
     margin: 0;
-    
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* shared styles */
+
+.highlight {
+    color: rgb(255, 83, 160);
+}
+
+.logo {
+    padding-right: 15px;
+}
+
+
+/* header styles */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 240px;
+    align-items: center;
+    background-color: #FFFFFF;
+
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+    font-size: 2.8em;
+
+
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav li {
+    list-style: none;
+    padding: 0 15px;
+    color: #3C354F;
+
+}
+
+.nav a {
+    text-decoration: none;
+
+}
+
+.btn {
+    background: rgb(220, 218, 218);
+    padding: 8px 20px;
+    border: 0;
+    border-radius: 5px;
+
+}
+
+.icon {
+    color: red;
+    padding-left: 15px;
+    font-size: 20px;
+
 }

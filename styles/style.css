@@ -143,6 +143,11 @@ body {
 /* online game card section styles */
 
 
+.game-title {
+    font-size: 2.1rem;
+}
+
+
 .online-games {
     margin: 0 auto;
     width: 80%;
@@ -150,6 +155,7 @@ body {
 }
 
 .video-card {
+    margin-top: 50px;
     text-align: start;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -164,6 +170,46 @@ body {
     width: 100%;
 }
 
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay {
+    border: #ff53a0 4px solid;
+    border-radius: 13px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 99%;
+    height: 98%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.overlay:hover {
+    opacity: 1;
+    
+}
+
+.play-icon {
+    font-size: 50px;
+    color: #fcfcfc;
+   
+}
+
+.watch-now {
+    margin-top: 10px;
+    color: #ff53a0; ;
+    font-size: 1.5rem;
+    
+}
 
 
 

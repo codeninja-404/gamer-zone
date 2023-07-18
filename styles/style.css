@@ -65,3 +65,38 @@ body {
     font-size: 20px;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:576px) {
+
+    .nav, ul{
+        flex-direction: column;
+        
+        
+    }
+
+    .nav ul {
+        
+        padding: 0 30px ;
+        margin: 0 auto;
+    }
+
+    .nav li{
+        padding-bottom: 30px;
+    }
+    
+
+}

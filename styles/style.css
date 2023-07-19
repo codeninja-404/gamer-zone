@@ -408,24 +408,30 @@ body {
 
     .player {
         display: flex;
-        width: 130px;
+        width: 100px;
         padding: 5px;
         margin: 30px 0px;
         align-items: center;
-        font-size: .5rem;
+        font-size: .4rem;
+        justify-content: space-evenly;
     }
 
     .player:hover {
         padding: 2px;
-        border-radius: 50px;
-    
+        border: 2px solid;
+
     }
-    
-  .player-container{
-    width: 80%;
-  }
+
+    .player-container {
+        width: 80%;
+    }
+
     .player-img {
-        width: 20%;
+        width: 15%;
+    }
+
+    .p3 {
+        display: none;
     }
 
 }
@@ -511,9 +517,10 @@ body {
         width: 80%;
     }
 
-    .player-img{
+    .player-img {
         width: 30%;
     }
+
     .player {
         display: flex;
         width: 130px;
@@ -526,7 +533,12 @@ body {
     .player:hover {
         padding: 2px;
         border-radius: 50px;
-    
+
     }
+
+    .p3 {
+        display: none;
+    }
+
 
 }

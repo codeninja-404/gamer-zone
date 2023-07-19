@@ -273,46 +273,47 @@ body {
 
 /* player section styles */
 
-.player-container{
+.player-container {
     width: 90%;
     margin: 200px auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
-    
+
 }
 
 
- 
 
 
 
 
 
-.player{
+
+.player {
     display: flex;
     width: 230px;
-    padding:  10px ;
-    margin: 20px 0px ;
+    padding: 10px;
+    margin: 20px 0px;
     align-items: center;
     font-size: .9rem;
     justify-content: space-between;
-    
-   
+
+
 }
-.player-name{
-    padding-left: 10px;
+
+.player-name {
+
     font-weight: 700;
 
 }
 
-.player:hover{
+.player:hover {
     color: #ff53a0;
     border: #ff53a0 3.5px solid;
-    padding: 7px ;
+    padding: 7px;
     border-radius: 50px;
-    
+
 }
 
 
@@ -405,7 +406,27 @@ body {
         width: 150%;
     }
 
+    .player {
+        display: flex;
+        width: 130px;
+        padding: 5px;
+        margin: 30px 0px;
+        align-items: center;
+        font-size: .5rem;
+    }
 
+    .player:hover {
+        padding: 2px;
+        border-radius: 50px;
+    
+    }
+    
+  .player-container{
+    width: 80%;
+  }
+    .player-img {
+        width: 20%;
+    }
 
 }
 
@@ -490,5 +511,22 @@ body {
         width: 80%;
     }
 
+    .player-img{
+        width: 30%;
+    }
+    .player {
+        display: flex;
+        width: 130px;
+        padding: 5px;
+        margin: 30px 0px;
+        align-items: center;
+        font-size: .5rem;
+    }
+
+    .player:hover {
+        padding: 2px;
+        border-radius: 50px;
+    
+    }
 
 }

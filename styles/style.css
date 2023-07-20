@@ -20,10 +20,7 @@ body {
     padding-right: 15px;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
+
 
 /* header styles */
 
@@ -289,7 +286,10 @@ a{
 }
 
 
-
+.player-container a{
+    text-decoration: none;
+    color: black;
+}
 
 
 
